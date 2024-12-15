@@ -18,7 +18,7 @@ class CicdResrchApplicationTests {
     void contextLoads() throws Exception {
         mvc.perform(get("/"))
                 .andExpect(status().isOk())
-                .andExpect(content().bytes("Привет, а я работаю".getBytes()));
+                .andExpect(content().bytes("Привет, а я работаю!".getBytes()));
     }
 
 }
