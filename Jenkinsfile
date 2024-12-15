@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Oleborn/CICDResrch.git'
+                git branch: 'main', url: 'https://github.com/Oleborn/CICDReserch.git'
             }
         }
 
